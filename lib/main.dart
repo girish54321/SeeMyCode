@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      themeMode: ThemeMode.system,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        brightness: Brightness.dark,
         useMaterial3: true,
       ),
       home: MyQrCodeView(),
@@ -60,9 +61,10 @@ class _MyQrCodeViewState extends State<MyQrCodeView> {
           ),
           Center(
             child: QrImageView(
+              backgroundColor: Colors.white,
               data: qrTextController.text,
               version: QrVersions.auto,
-              size: 350.0,
+              size: 300.0,
             ),
           ),
         ],
