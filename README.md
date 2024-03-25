@@ -1,18 +1,22 @@
-# see_my_code
+# See My Code
 
-A new Flutter project.
+<p align="center">
+  <img width="124"  src="appimages/app_icon.png" alt="My Wall App Logo" width="200">
+</p>
 
-## Getting Started
+[![GitHub license](https://img.shields.io/github/license/girish54321/My-Wall)](https://github.com/girish54321/My-Wall/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/girish54321/My-Wall)](https://github.com/girish54321/My-Wall/issues)
+[![GitHub stars](https://img.shields.io/github/stars/girish54321/My-Wall)](https://github.com/girish54321/My-Wall/stargazers)
 
-This project is a starting point for a Flutter application.
+About the App
 
-A few resources to get you started if this is your first Flutter project:
+A simple QR Code generator application for macOS built with Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Generate QR Codes quickly and easily.
+- Clean and intuitive user interface.
 
-<a href="https://www.flaticon.com/authors/maniprasanth" title="qr code icons">Qr code icons created by Maniprasanth - Flaticon</a>
+## Screenshots
+
+<img width="560"  src="appimages/macosapp.png?raw=true">
